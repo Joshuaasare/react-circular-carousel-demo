@@ -1,0 +1,11 @@
+.card {
+}
+
+.card__container {
+  width: 100%;
+}
+
+.card__header {
+  display: flex;
+  justify-content: center;
+}

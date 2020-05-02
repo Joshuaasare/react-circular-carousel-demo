@@ -1,0 +1,104 @@
+/**
+ * @Author: Joshua Asare <joshuaasare>
+ * @Date:   2019-08-17 12:02:28
+ * @Last modified by:   joshuaasare
+ * @Last modified time: 2019-09-08 19:15:18
+ */
+:root {
+  --color-yellow-dark: rgb(244, 160, 29);
+  --color-yellow-light: #e0ae63;
+
+  --color-grey-light-1: #faf9f9;
+  --color-grey-light-2: #f4f2f2;
+  --color-grey-light-3: #f0eeee;
+  --color-grey-light-4: #ccc;
+
+  --color-grey-dark-1: #333;
+  --color-grey-dark-2: #777;
+  --color-grey-dark-3: #999;
+
+  --color-transluscent: rgba(31, 42, 57, 0.85);
+
+  --color-orange: #c25427;
+
+  --color-pink-light: #db7093;
+  --color-red-light: #f20056;
+
+  --color-purple-dark: #201e50;
+  --color-purple-dark-alt1: #c53064;
+  --color-purple-dark-alt: #180f58;
+  --color-purple-light: #3c338f;
+  --color-pink-coral-reef: #edad9d;
+  --color-pink-coral-reef-medium: rgba(245, 224, 210, 0.9);
+  --color-pink-coral-reef-light: rgba(245, 224, 210, 0.25);
+  --default-font-size: 1.6rem;
+
+  --color-coe-primary: #ffd25a;
+  --color-coe-secondary: #1f2a39;
+  --color-coe-secondary-2: #3f3d56;
+
+  --color-coe-secondary-light: rgba(31, 42, 57, 0.5);
+
+  /*GRID*/
+  --grid-width: 114rem;
+  --gutter-vertical: 8rem;
+  --gutter-vertical-small: 6rem;
+  --gutter-horizontal: 3rem;
+  --gutter-horizontal-small: 2.5rem;
+
+  --toolbar-height-standard: 5rem;
+  /*BIG DESKTOP*/
+}
+*,
+*::after,
+*::before {
+  box-sizing: inherit !important;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box !important;
+  scroll-behavior: smooth;
+}
+
+body {
+  padding: 2rem 0 !important;
+  font-family: 'Open Sans', sans-serif !important;
+  background-color: var(--color-coe-secondary);
+}
+
+/*BIG DESKTOP*/
+@media (max-width: 112.5em) {
+  html {
+    font-size: 75% !important;
+  }
+}
+
+/*TAB LANDSCAPE*/
+@media (max-width: 75em) {
+  html {
+    font-size: 56.25% !important;
+  }
+}
+/*TAB PORTRAIT*/
+@media (max-width: 56.25em) {
+  html {
+    font-size: 50% !important;
+  }
+
+  body {
+    padding: 0 !important;
+  }
+}
+
+/*PHONE*/
+@media (max-width: 37.5em) {
+  html {
+    font-size: 50% !important;
+  }
+
+  :root {
+    --toolbar-height-standard: 8rem;
+  }
+}
