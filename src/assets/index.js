@@ -1,18 +1,15 @@
-import team1 from "./images/team1.jpg";
-import team2 from "./images/team2.jpg";
-import team3 from "./images/team3.jpg";
-import team4 from "./images/team4.jpg";
-import team5 from "./images/team5.jpg";
-import team6 from "./images/team6.jpg";
-import team7 from "./images/team7.jpg";
-import team8 from "./images/team8.jpg";
-import team9 from "./images/team9.jpg";
-
-import suit from "./images/suit.jpg";
-import afri from "./images/afri.jpg";
-import watch from "./images/watch.jpg";
-import wed from "./images/wed.jpg";
-import shoes from "./images/shoes.jpg";
+import chair1 from "./images/chair1.jpg";
+import chair2 from "./images/chair2.jpg";
+import chair3 from "./images/chair3.jpg";
+import chair4 from "./images/chair4.jpg";
+import chair5 from "./images/chair5.jpg";
+import chair6 from "./images/chair6.jpg";
+import chair7 from "./images/chair7.jpg";
+import chair8 from "./images/chair8.jpg";
+import chair9 from "./images/chair9.jpg";
+import chair10 from "./images/chair10.jpg";
+import chair11 from "./images/chair11.jpg";
+import chair12 from "./images/chair12.jpg";
 
 import distancing from "./svg/distancing.svg";
 import home from "./svg/home.svg";
@@ -37,20 +34,6 @@ import card12 from "./images/card12.png";
 
 export const images = {
   logo: exp1,
-  team1,
-  team2,
-  team3,
-  team4,
-  team5,
-  team6,
-  team7,
-  team8,
-  team9,
-  suit,
-  afri,
-  watch,
-  shoes,
-  wed,
   card1,
   card2,
   card3,
@@ -63,6 +46,18 @@ export const images = {
   card10,
   card11,
   card12,
+  chair1,
+  chair2,
+  chair3,
+  chair4,
+  chair5,
+  chair6,
+  chair7,
+  chair8,
+  chair9,
+  chair10,
+  chair11,
+  chair12,
 };
 
 export const svg = {

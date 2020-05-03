@@ -1,25 +1,18 @@
 import { images, svg } from "../assets";
 
-export const templateList = [
-  { url: images.team2 },
-  { url: images.team3 },
-  { url: images.team4 },
-  { url: images.team5 },
-  { url: images.team6 },
-  { url: images.team7 },
-  { url: images.team8 },
-  { url: images.team9 },
-];
-
-export const tailorList = [
-  { url: images.afri },
-  { url: images.shoes },
-  { url: images.wed },
-  { url: images.suit },
-  { url: images.afri },
-  { url: images.shoes },
-  { url: images.wed },
-  { url: images.suit },
+export const chairs = [
+  { url: images.chair1 },
+  { url: images.chair2 },
+  { url: images.chair3 },
+  { url: images.chair4 },
+  { url: images.chair5 },
+  { url: images.chair6 },
+  { url: images.chair7 },
+  { url: images.chair8 },
+  { url: images.chair9 },
+  { url: images.chair10 },
+  { url: images.chair11 },
+  { url: images.chair12 },
 ];
 
 export const cards = [

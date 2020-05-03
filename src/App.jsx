@@ -19,12 +19,12 @@ const App = () => {
         <Cards />
       </section>
 
-      <section className="section__steps">
-        <Steps />
-      </section>
-
       <section className="section__images">
         <Images />
+      </section>
+
+      <section className="section__steps">
+        <Steps />
       </section>
 
       <section className="section__links">
