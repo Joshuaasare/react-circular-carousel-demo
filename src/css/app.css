@@ -2,11 +2,69 @@
 }
 
 .section__cards {
-  margin-bottom: 5rem;
+  margin-bottom: 6rem;
 }
 
 .section__steps {
-  margin-bottom: 5rem;
+  margin-bottom: 6rem;
+}
+
+.section__images {
+  margin-bottom: 6rem;
+}
+
+.section__links {
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.links__text {
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+  color: #d7dce2;
+  margin-bottom: 3rem;
+}
+
+.links__text > a {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.links__logo {
+  height: 3.5rem;
+  margin: 0.5rem 0 0 0.5rem;
+}
+
+.links__buttons {
+  display: flex;
+  margin-bottom: 3rem;
+}
+
+.links__button {
+  padding: 1.5rem 1rem;
+  background-color: #fff;
+  border-radius: 3px;
+  width: 15rem;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.links__button > a {
+  text-decoration: none;
+  color: #000;
+  display: inline-block;
+}
+
+.links__button:not(:last-child) {
+  margin-right: 4rem;
 }
 
 .full__size {
@@ -23,8 +81,32 @@
 
 .header > span {
   display: inline-block;
-  font-size: 1.7rem;
+  font-size: 3rem;
   padding: 1rem 0 1rem 0;
-  color: #ffae57;
+  color: #ffd580;
   font-weight: 600;
+}
+
+/*BIG DESKTOP*/
+@media (max-width: 112.5em) {
+}
+
+/*TAB LANDSCAPE*/
+@media (max-width: 75em) {
+}
+/*TAB PORTRAIT*/
+@media (max-width: 56.25em) {
+}
+
+/*PHONE*/
+@media (max-width: 37.5em) {
+  .header > span {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 25em) {
+  .header > span {
+    font-size: 1.6rem;
+  }
 }

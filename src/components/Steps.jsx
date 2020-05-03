@@ -2,7 +2,7 @@
  * @Author: Joshua Asare
  * @Date: 2020-05-02 18:33:45
  * @Last Modified by: Joshua Asare
- * @Last Modified time: 2020-05-03 07:47:11
+ * @Last Modified time: 2020-05-03 12:06:37
  */
 
 import React from "react";
@@ -18,7 +18,7 @@ const Steps = () => {
         {steps.map((step) => {
           return (
             <div className="step__container">
-              <div style={{ height: "70%", width: "70%" }}>
+              <div className="step__animation">
                 <Lottie
                   options={defaultAnimationOptions(step.animation)}
                   isPaused={false}
