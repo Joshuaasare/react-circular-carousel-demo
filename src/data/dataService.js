@@ -1,4 +1,4 @@
-import { images, animations } from "../assets";
+import { images, svg } from "../assets";
 
 export const templateList = [
   { url: images.team2 },
@@ -38,21 +38,8 @@ export const cards = [
 ];
 
 export const steps = [
-  { text: "Stay Home", animation: "stayHome" },
-  { text: "Stay At Home", animation: "home" },
-  { text: "Stay Safe", animation: "safe" },
-  { text: "Wash Hands", animation: "wash2" },
-  { text: "Wash hands", animation: "wash" },
-  { text: "Social Distancing", animation: "distancing" },
-  { text: "Report Symtoms", animation: "symtoms" },
-  { text: "Use tissue", animation: "tissue" },
+  { text: "Stay Home", url: svg.home },
+  { text: "Wash Hands", url: svg.wash },
+  { text: "Social Distancing", url: svg.distancing },
+  { text: "Report Symtoms", url: svg.report },
 ];
-
-export const defaultAnimationOptions = (animation) => ({
-  loop: true,
-  autoplay: true,
-  animationData: animations[animation],
-  rendererSettings: {
-    preserveAspectRatio: "xMidYMid slice",
-  },
-});

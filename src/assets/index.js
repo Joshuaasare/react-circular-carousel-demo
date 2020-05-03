@@ -1,8 +1,3 @@
-import schooldesk from "./images/schooldesk_cover.jpg";
-import stcOperations from "./images/stc_operations.jpg";
-import assetsManager from "./images/assets_manager.jpg";
-import mmda from "./images/mmda.jpg";
-
 import team1 from "./images/team1.jpg";
 import team2 from "./images/team2.jpg";
 import team3 from "./images/team3.jpg";
@@ -19,19 +14,11 @@ import watch from "./images/watch.jpg";
 import wed from "./images/wed.jpg";
 import shoes from "./images/shoes.jpg";
 
-import dev from "./animations/dev.json";
-import distancing from "./animations/social-distancing.json";
-import stayHome from "./animations/stay-home.json";
-import symtoms from "./animations/symtoms.json";
-import tissue from "./animations/tissue.json";
-import wash from "./animations/wash.json";
-import mask from "./animations/wear-mask.json";
-import home from "./animations/home.json";
-import safe from "./animations/safe.json";
-import wash2 from "./animations/wash2.json";
+import distancing from "./svg/distancing.svg";
+import home from "./svg/home.svg";
+import report from "./svg/report.svg";
+import wash from "./svg/wash.svg";
 
-import program from "./animations/program.json";
-import resume from "./animations/Joshua_resume.pdf";
 import logo from "./images/Josh_logo.png";
 import exp1 from "./images/exp1.png";
 
@@ -49,10 +36,6 @@ import card11 from "./images/card11.png";
 import card12 from "./images/card12.png";
 
 export const images = {
-  mmda,
-  schooldesk,
-  stcOperations,
-  assetsManager,
   logo: exp1,
   team1,
   team2,
@@ -82,22 +65,9 @@ export const images = {
   card12,
 };
 
-export const files = {
-  resume,
-};
-
-export const svg = {};
-
-export const animations = {
-  dev,
-  program,
-  wash,
-  symtoms,
-  mask,
-  stayHome,
+export const svg = {
   distancing,
-  tissue,
   home,
-  safe,
-  wash2,
+  wash,
+  report,
 };

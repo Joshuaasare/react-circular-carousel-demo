@@ -2,14 +2,13 @@
  * @Author: Joshua Asare
  * @Date: 2020-05-02 18:33:45
  * @Last Modified by: Joshua Asare
- * @Last Modified time: 2020-05-03 12:06:37
+ * @Last Modified time: 2020-05-03 19:21:52
  */
 
 import React from "react";
 import "./css/steps.css";
 import { Carousel } from "react-circular-carousel";
-import Lottie from "react-lottie";
-import { steps, defaultAnimationOptions } from "../data";
+import { steps } from "../data";
 
 const Steps = () => {
   return (
@@ -18,14 +17,7 @@ const Steps = () => {
         {steps.map((step) => {
           return (
             <div className="step__container">
-              <div className="step__animation">
-                <Lottie
-                  options={defaultAnimationOptions(step.animation)}
-                  isPaused={false}
-                  isStopped={false}
-                  isClickToPauseDisabled={true}
-                />
-              </div>
+              <img src={step.url} className="step__image" />
               <span>{step.text}</span>
             </div>
           );
