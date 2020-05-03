@@ -1,21 +1,25 @@
-import React, { Fragment } from 'react';
-import 'react-circular-carousel/dist/index.css';
-import './css/app.css';
-import { Landing, Cards, Images } from './components';
+import React, { Fragment } from "react";
+import "react-circular-carousel/dist/index.css";
+import "./css/app.css";
+import { Landing, Cards, Images, Steps } from "./components";
 
 const App = () => {
   return (
     <Fragment>
-      <section className='section__landing'>
+      <section className="section__landing">
         <Landing />
       </section>
 
-      <section className='section__cards'>
+      <div className="header">
+        <span>Examples</span>
+      </div>
+
+      <section className="section__cards">
         <Cards />
       </section>
 
-      <section className='section__images'>
-        <Images />
+      <section className="section__steps">
+        <Steps />
       </section>
     </Fragment>
   );

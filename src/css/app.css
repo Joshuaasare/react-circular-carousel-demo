@@ -1,6 +1,14 @@
 .section__landing {
 }
 
+.section__cards {
+  margin-bottom: 5rem;
+}
+
+.section__steps {
+  margin-bottom: 5rem;
+}
+
 .full__size {
   width: 100%;
   height: 100%;
