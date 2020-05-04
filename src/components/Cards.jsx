@@ -2,7 +2,7 @@
  * @Author: Joshua Asare
  * @Date: 2020-05-02 13:57:00
  * @Last Modified by: Joshua Asare
- * @Last Modified time: 2020-05-03 07:47:39
+ * @Last Modified time: 2020-05-04 08:19:38
  */
 import React from "react";
 import { Carousel } from "react-circular-carousel";
@@ -14,8 +14,11 @@ const Cards = () => {
     <div className="card">
       <div className="card__container">
         <Carousel width={150} height={200} id={0} transition="bounce">
-          {cards.map((card) => {
-            return <img src={card.url} alt="" className="full__size" />;
+          {cards.map((card, index) => {
+            const key = `card-${index}`;
+            return (
+              <img key={key} src={card.url} alt="" className="full__size" />
+            );
           })}
         </Carousel>
       </div>

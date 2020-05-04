@@ -16,8 +16,10 @@ import home from "./svg/home.svg";
 import report from "./svg/report.svg";
 import wash from "./svg/wash.svg";
 
-import logo from "./images/Josh_logo.png";
 import exp1 from "./images/exp1.png";
+
+import carouselLogo from "./images/logo.png";
+import carouselLogo2 from "./images/logo1.png";
 
 import card1 from "./images/card1.png";
 import card2 from "./images/card2.png";
@@ -34,6 +36,8 @@ import card12 from "./images/card12.png";
 
 export const images = {
   logo: exp1,
+  carouselLogo,
+  carouselLogo2,
   card1,
   card2,
   card3,
